@@ -267,14 +267,34 @@ p.copyright {
 /* Skills page Styling */
 
 .skill-col {
-  height: 60px;
+  height: 75px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 
 .skills-h5 {
   padding-left: 15px;
+}
+
+.fe-skills-img {
+  position: absolute;
+  left: 40%;
+}
+
+.fe-skills-h5 {
+  position: absolute;
+  left: 50%;
+}
+
+.be-skills-img {
+  position: absolute;
+  left: 40%;
+}
+
+.be-skills-h5 {
+  position: absolute;
+  left: 50%;
 }
 
 /* Media Queries for Responsivness*/
