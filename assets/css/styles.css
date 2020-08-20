@@ -54,7 +54,7 @@ ul {
 
 .second-container {
   padding: 25px 0 25px;
-  background-image: linear-gradient(to right, #BBBBBB, #DBDBDB, #E4E4E4, #FFFFFF, #E4E4E4, #DBDBDB, #BBBBBB);
+  background-image: linear-gradient(to right, #9A9A9A, #DBDBDB, #E4E4E4, #FFFFFF, #E4E4E4, #DBDBDB, #9A9A9A);
 }
 
 .third-container {
@@ -63,7 +63,7 @@ ul {
 
 /* Navigation Bar */
 .top-nav {
-  background-image: linear-gradient(to right, #BBBBBB, #DBDBDB, #E4E4E4, #FFFFFF, #E4E4E4, #DBDBDB, #BBBBBB);
+  background-image: linear-gradient(to right, #9A9A9A, #DBDBDB, #E4E4E4, #FFFFFF, #E4E4E4, #DBDBDB, #9A9A9A);
   height: 75px;
   padding-right: 25px;
   overflow: hidden;
@@ -145,6 +145,86 @@ p.copyright {
   padding-bottom: 5px;
 }
 
+/* Timeline styling */
+
+.timeline {
+  width: 100%;
+  max-width: 750px;
+  padding: 100px 50px;
+  position: relative;
+  margin: 0 auto;
+}
+.timeline:before {
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: calc(33% + 15px);
+  bottom: 25px;
+  width: 4px;
+  background: #DDDDDD;
+}
+.timeline:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.role {
+  clear: both;
+  text-align: left;
+  position: relative;
+}
+.role .job-title {
+  margin-bottom: .5em;
+  float: left;
+  width: 33%;
+  padding-right: 30px;
+  text-align: right;
+  position: relative;
+}
+.role .job-title:before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 4px solid #CD6600;
+  background-color: #FFFFFF;
+  border-radius: 100%;
+  top: 15%;
+  right: -8px;
+  z-index: 99;
+}
+.role .job-title h3 {
+  margin: 0;
+  font-size: 120%;
+}
+.role .job-title p {
+  margin: 0;
+  font-size: 100%;
+}
+.role .detail {
+  margin: 0 0 3em;
+  float: right;
+  width: 66%;
+  padding-left: 30px;
+}
+.role .detail p {
+  line-height: 1.4em;
+}
+.role .detail p:first-child {
+  margin-top: 0;
+  font-weight: 400;
+}
+.role .detail ul {
+  color: #AAAAAA;
+  padding-left: 0;
+  list-style-type: none;
+}
+.role .detail ul li:before {
+  content: "–";
+  margin-right: .5em;
+}
+
 /* Images */
 .profile-img {
   border-radius: 50%;
@@ -184,7 +264,20 @@ p.copyright {
   margin-left: 30px;
 }
 
-/* Media Queries */
+/* Skills page Styling */
+
+.skill-col {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-h5 {
+  padding-left: 15px;
+}
+
+/* Media Queries for Responsivness*/
 @media (max-width:1028px) {
   .title-img {
     width: 100%;
@@ -202,7 +295,6 @@ p.copyright {
   }
 
   .top-nav {
-    position: fixed;
     width: 100%;
     height: 50px;
     padding-right: 15px;
