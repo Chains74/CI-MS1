@@ -1,6 +1,10 @@
 /* Basic Structure */
-body {
+* {
   margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: "Merriweather", serif;
   text-align: center;
   background-color: #F2F2F2;
@@ -31,6 +35,7 @@ h2 {
 
 p {
   line-height: 2;
+  margin-bottom: 0;
 }
 
 hr {
@@ -50,7 +55,6 @@ ul {
 
 /* Containers */
 .first-container {
-  position: relative;
   padding-top: 75px;
 }
 
@@ -127,7 +131,10 @@ p.copyright {
 
 .footer-link {
   background-image: linear-gradient(to right, #9A9A9A, #DBDBDB, #E4E4E4, #F2F2F2, #E4E4E4, #DBDBDB, #9A9A9A);
-  height: 125px;
+}
+
+p.footer-cv {
+  font-size: 0.7em;
 }
 
 .social-links {
@@ -135,7 +142,7 @@ p.copyright {
 }
 
 .copyright {
-  padding-top: 85px;
+  padding-top: 50px;
 }
 
 .h5-sub {
@@ -310,6 +317,10 @@ p.copyright {
     width: 100%;
     height: auto;
   }
+
+  .icon {
+    font-size: 2em;
+  }
 }
 
 @media (max-width:991.98px) {
@@ -333,8 +344,19 @@ p.copyright {
     padding: 10px 0;
   }
 
+  p.copyright {
+    font-size: .8em;
+    padding-top: 10px;
+  }
+
+  .be-skills-h5 {
+    position: absolute;
+    left: 50%;
+    padding-left: 15px;
+  }
+
   .h5-sub {
-    visibility: hidden;
+    font-size: .85em;
   }
 }
 
@@ -350,6 +372,15 @@ p.copyright {
 
   a.nav-link {
     padding: 10px 0;
+  }
+
+  p.copyright {
+    font-size: .8em;
+    padding-top: 10px;
+  }
+
+  .copyright {
+    padding-top: 25px;
   }
 
   .navbar {
@@ -372,13 +403,23 @@ p.copyright {
     height: 64px;
   }
 
+  .be-skills-h5 {
+    position: absolute;
+    left: 50%;
+    padding-left: 15px;
+  }
+
   .h3-sub {
     font-size: 0.9em;
     font-weight: bold;
     color: #CD6600;
   }
-  
+
   .h5-sub {
-    visibility: hidden;
+    font-size: .85em;
+  }
+
+  .icon {
+    font-size: 1em;
   }
 }
