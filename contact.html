@@ -60,15 +60,29 @@
     </div>
   </div>
 
-  <div class="second-container container-fluid">
-
+  <div class="second-container container-fluid container-left">
+    <p>Location: London, UK</p>
+    <br>
+    <p>Phone: +44 7777 123456</p>
   </div>
 
-  <div class="contact-me">
-
+  <div class="third-container container-fluid container-right">
     <h2>Get In Touch</h2>
     <p class="contact-msg">Feel free to contact me about work or play by clicking the link below.</p>
-    <a href="mailto:chains74@outlook.com"><i class="fas fa-envelope fa-4x icon"></i></a>
+    <br>
+    <form action="mailto:chains74@outlook.com" method="post" enctype="text/plain">
+      <label>Your Name:</label>
+      <input type="text" name="yourName" value="">
+      <br>
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value="">
+      <br>
+      <label>Your Message:</label>
+      <br>
+      <textarea name="yourMessage" rows="10" cols="40"></textarea>
+      <br>
+      <input type="submit" name="">
+    </form>
 
   </div>
 
