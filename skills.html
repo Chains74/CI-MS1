@@ -27,13 +27,32 @@
 
 <body>
 
-  <div class="top-nav" id="myTopnav">
-    <a href="contact.html">CONTACT</a>
-    <a href="experience.html">EXPERIENCE</a>
-    <a href="skills.html" class="active">SKILLS</a>
-    <a href="index.html">HOME</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-  </div>
+  <nav class="navbar navbar-expand-lg navbar-light">
+
+    <a class="navbar-brand d-none d-sm-block" href="index.html">MARC C</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="skills.html">SKILLS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="history.html">EXPERIENCE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
 
   <div class="first-container container-fluid">
     <div>
@@ -116,52 +135,53 @@
     <h2> <i class="fas fa-code fa-fw"></i> Development</h2>
     <div class="row">
       <div class="col-sm">
-          <h2 class="h2-sub"><i class="fas fa-tv fa-fw"></i> Front End</h2>
-          <div class="skill-col">
-            <img class="fe-skills-img" src="assets/images/html5-48.png" alt="html48-img">
-            <h5 class="be-skills-h5">HTML5</h5>
-          </div>
-          <div class="skill-col">
-            <img class="fe-skills-img" src="assets/images/css3-48.png" alt="css48-img">
-            <h5 class="be-skills-h5">CSS3</h5>
-          </div>
-          <div class="skill-col">
-            <img class="fe-skills-img" src="assets/images/javascript-48.png" alt="javascript48-img">
-            <h5 class="be-skills-h5">JavaScript</h5>
-          </div>
-          <div class="skill-col">
-            <img class="fe-skills-img" src="assets/images/bootstrap4-48.png" alt="bootstrap48-img">
-            <h5 class="be-skills-h5">Bootstrap</h5>
-          </div>
-          <div class="skill-col">
-            <img class="fe-skills-img" src="assets/images/github-48.png" alt="github48-img">
-            <h5 class="be-skills-h5">GitHub</h5>
-          </div>
+        <h2 class="h2-sub"><i class="fas fa-tv fa-fw"></i> Front End</h2>
+        <div class="skill-col">
+          <img class="fe-skills-img" src="assets/images/html5-48.png" alt="html48-img">
+          <h5 class="be-skills-h5">HTML5</h5>
         </div>
-        <div class="col-sm">
-          <h2 class="h2-sub"><i class="fas fa-cogs fa-fw"></i> Backend</h2>
-          <div class="skill-col">
-            <img class="be-skills-img" src="assets/images/python-48.png" alt="python48-img">
-            <h5 class="be-skills-h5">Python 3</h5>
-          </div>
-          <div class="skill-col">
-            <img class="be-skills-img" src="assets/images/mySQL-48.png" alt="sql48-img">
-            <h5 class="be-skills-h5">SQL</h5>
-          </div>
-          <div class="skill-col">
-            <img class="be-skills-img" src="assets/images/django-48.png" alt="django48-img">
-            <h5 class="be-skills-h5">Django</h5>
-          </div>
-          <div class="skill-col">
-            <img class="be-skills-img" src="assets/images/noSQL-48.png" alt="nosql48-img">
-            <h5 class="be-skills-h5">NoSQL</h5>
-          </div>
-          <div class="skill-col">
-            <img class="be-skills-img" src="assets/images/heroku-48.png" alt="heroku48-img">
-            <h5 class="be-skills-h5">Heroku</h5>
-          </div>
+        <div class="skill-col">
+          <img class="fe-skills-img" src="assets/images/css3-48.png" alt="css48-img">
+          <h5 class="be-skills-h5">CSS3</h5>
         </div>
+        <div class="skill-col">
+          <img class="fe-skills-img" src="assets/images/javascript-48.png" alt="javascript48-img">
+          <h5 class="be-skills-h5">JavaScript</h5>
+        </div>
+        <div class="skill-col">
+          <img class="fe-skills-img" src="assets/images/bootstrap4-48.png" alt="bootstrap48-img">
+          <h5 class="be-skills-h5">Bootstrap</h5>
+        </div>
+        <div class="skill-col">
+          <img class="fe-skills-img" src="assets/images/github-48.png" alt="github48-img">
+          <h5 class="be-skills-h5">GitHub</h5>
+        </div>
+      </div>
+      <div class="col-sm">
+        <h2 class="h2-sub"><i class="fas fa-cogs fa-fw"></i> Backend</h2>
+        <div class="skill-col">
+          <img class="be-skills-img" src="assets/images/python-48.png" alt="python48-img">
+          <h5 class="be-skills-h5">Python 3</h5>
+        </div>
+        <div class="skill-col">
+          <img class="be-skills-img" src="assets/images/mySQL-48.png" alt="sql48-img">
+          <h5 class="be-skills-h5">SQL</h5>
+        </div>
+        <div class="skill-col">
+          <img class="be-skills-img" src="assets/images/django-48.png" alt="django48-img">
+          <h5 class="be-skills-h5">Django</h5>
+        </div>
+        <div class="skill-col">
+          <img class="be-skills-img" src="assets/images/noSQL-48.png" alt="nosql48-img">
+          <h5 class="be-skills-h5">NoSQL</h5>
+        </div>
+        <div class="skill-col">
+          <img class="be-skills-img" src="assets/images/heroku-48.png" alt="heroku48-img">
+          <h5 class="be-skills-h5">Heroku</h5>
+        </div>
+      </div>
     </div>
+  </div>
 
     <hr>
 
@@ -187,8 +207,11 @@
     <div class="col-sm-4">
       <h5 class="h5-sub">Download</h5>
       <p class="inline-block">
-        Need a printable version of my CV? Download it here.
-        <a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf"><i class="fa fa-download" aria-hidden="true"></i><span class="sr-only">Download link.</span></a></p>
+        Need a printable version of my CV?
+        <br>
+        Download it here.
+        <a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf"><i class="fa fa-download"></i><span class="sr-only">Download link.</span></a>
+      </p>
     </div>
     <div class="col-sm-4 middle-col">
       <p class="copyright">© 2020 Marc Chapman.</p>
