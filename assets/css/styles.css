@@ -148,6 +148,77 @@ p.footer-cv {
   padding-bottom: 5px;
 }
 
+/* --- Images --- */
+.profile-img {
+  border-radius: 50%;
+}
+
+.mac-img {
+  float: left;
+  margin-right: 30px;
+  border-radius: 25px;
+}
+
+.office365-img {
+  float: right;
+  margin-left: 30px;
+  border-radius: 25px;
+}
+
+.adobe-img {
+  float: left;
+  margin-right: 30px;
+  border-radius: 25px;
+}
+
+.fed-img {
+  float: right;
+  margin-left: 30px;
+  border-radius: 25px;
+}
+
+.music-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.books-img {
+  float: right;
+  margin-left: 30px;
+}
+
+/* Skills page Styling */
+.skill-col {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.skills-h5 {
+  padding-left: 15px;
+}
+
+.fe-skills-img {
+  position: absolute;
+  left: 40%;
+}
+
+.fe-skills-h5 {
+  position: absolute;
+  left: 50%;
+}
+
+.be-skills-img {
+  position: absolute;
+  left: 40%;
+}
+
+.be-skills-h5 {
+  position: absolute;
+  left: 50%;
+}
+
 /* Timeline styling */
 
 .container {
@@ -276,76 +347,8 @@ p.footer-cv {
 }
 
 /* --- Contact Styling --- */
-/* --- Images --- */
-.profile-img {
-  border-radius: 50%;
-}
 
-.mac-img {
-  float: left;
-  margin-right: 30px;
-  border-radius: 25px;
-}
 
-.office365-img {
-  float: right;
-  margin-left: 30px;
-  border-radius: 25px;
-}
-
-.adobe-img {
-  float: left;
-  margin-right: 30px;
-  border-radius: 25px;
-}
-
-.fed-img {
-  float: right;
-  margin-left: 30px;
-  border-radius: 25px;
-}
-
-.music-img {
-  float: left;
-  margin-right: 30px;
-}
-
-.books-img {
-  float: right;
-  margin-left: 30px;
-}
-
-/* Skills page Styling */
-.skill-col {
-  height: 75px;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-}
-
-.skills-h5 {
-  padding-left: 15px;
-}
-
-.fe-skills-img {
-  position: absolute;
-  left: 40%;
-}
-
-.fe-skills-h5 {
-  position: absolute;
-  left: 50%;
-}
-
-.be-skills-img {
-  position: absolute;
-  left: 40%;
-}
-
-.be-skills-h5 {
-  position: absolute;
-  left: 50%;
-}
 
 /* --- Media Queries for Responsivness --- */
 /* --- Extra Small: --- */
@@ -369,7 +372,17 @@ p.footer-cv {
   }
 
   .time-content p {
-    visibility: hidden;
+    display: none;
+  }
+
+  .time-content h2 {
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .time-content h4 {
+    font-size: 10px;
+    font-weight: 400;
   }
 
   .title-img {
@@ -448,6 +461,20 @@ p.footer-cv {
 
   .navbar a {
     padding: 0;
+  }
+
+  .time-content p {
+    display: none;
+  }
+
+  .time-content h2 {
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .time-content h4 {
+    font-size: 10px;
+    font-weight: 400;
   }
 
   .top-nav-item {
