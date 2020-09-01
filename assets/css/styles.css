@@ -381,6 +381,10 @@ p.footer-cv {
     padding-bottom: 10px;
   }
 
+  .fed-img {
+    margin-left: 10px;
+  }
+
   .cv-wrapper {
     order: 1;
   }
@@ -504,6 +508,16 @@ p.footer-cv {
     font-weight: 400;
   }
 
+  .h3-sub {
+    font-size: 0.85em;
+    font-weight: bold;
+    color: #CD6600;
+  }
+
+  .fed-img {
+    margin-left: 10px;
+  }
+
   .top-nav-item {
     padding-top: 30px;
   }
@@ -556,6 +570,7 @@ p.footer-cv {
 }
 
 /* ------ Large: ------ */
+
 @media only screen and (min-width: 992px) and (max-width: 1920px) {
   .title-img {
     width: 100%;
