@@ -1,4 +1,4 @@
-/* Basic Structure */
+/* ----- Basic Structure ----- */
 * {
   margin: 0;
   padding: 0;
@@ -19,12 +19,13 @@ a:hover {
   color: #CD6600;
 }
 
-/* Headings */
+/* ----- Headings ----- */
+
 h1 {
   color: #000000;
   font-family: "Montez", cursive;
   font-size: 7rem;
-  margin: 75px auto 25px auto;
+  margin: 50px auto 25px auto;
 }
 
 h2 {
@@ -54,7 +55,8 @@ ul {
   padding: 0;
 }
 
-/* Containers */
+/* ----- Containers ----- */
+
 .first-container {
   padding-top: 50px;
 }
@@ -68,7 +70,8 @@ ul {
   padding: 25px 0;
 }
 
-/* Navigation Bar */
+/* ----- Navigation Bar ----- */
+
 .navbar {
   background-image: linear-gradient(to right, #9A9A9A, #DBDBDB, #E4E4E4, #F2F2F2, #E4E4E4, #DBDBDB, #9A9A9A);
   height: 75px;
@@ -91,10 +94,8 @@ ul {
   color: black;
 }
 
-/* .navbar a.active {
-  background-color: #FFFFFF;
-} */
-/* Classes */
+/* ----- Classes ----- */
+
 div .col-sm {
   padding-top: 40px;
 }
@@ -135,6 +136,7 @@ p.copyright {
 
 p.footer-cv {
   font-size: 0.7em;
+  padding-bottom: 10px;
 }
 
 .social-links {
@@ -142,7 +144,7 @@ p.footer-cv {
 }
 
 .copyright {
-  padding-top: 50px;
+  padding-top: 60px;
 }
 
 .h5-sub {
@@ -150,7 +152,8 @@ p.footer-cv {
   padding-bottom: 5px;
 }
 
-/* --- Images --- */
+/* ----- Images ----- */
+
 .profile-img {
   border-radius: 50%;
 }
@@ -189,7 +192,8 @@ p.footer-cv {
   margin-left: 30px;
 }
 
-/* Skills page Styling */
+/* ----- Skills page Styling ----- */
+
 .skill-col {
   height: 75px;
   display: flex;
@@ -221,7 +225,7 @@ p.footer-cv {
   left: 50%;
 }
 
-/* Timeline styling */
+/* ----- Timeline styling ----- */
 
 .container {
   min-height: 100vh;
@@ -348,15 +352,16 @@ p.footer-cv {
   background-color: #cd6600;
 }
 
-/* --- Contact Styling --- */
+/* ----- Contact Styling ----- */
 
 .contact-touch {
   padding-top: 15px;
 }
 
-/* --- Media Queries for Responsivness --- */
-/* --- Extra Small: --- */
-@media only screen and (max-width: 599.99px) {
+/* -------- Media Queries for Responsivness -------- */
+
+/* ------ Extra Small: ------ */
+@media only screen and (max-width: 575.99px) {
   h1 {
     padding-top: 20px;
     font-size: 4rem;
@@ -373,6 +378,19 @@ p.footer-cv {
   p.copyright {
     font-size: .8em;
     padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .cv-wrapper {
+    order: 1;
+  }
+
+  .social-wrapper {
+    order: 2;
+  }
+
+  .copyright-wrapper {
+    order: 3;
   }
 
   .time-content p {
@@ -445,10 +463,15 @@ p.footer-cv {
   .icon {
     font-size: 1em;
   }
+
+  .social-links {
+    padding-bottom: 5px;
+  }
 }
 
-/* --- Small: --- */
-@media only screen and (min-width: 600px) and (max-width: 767.99px) {
+/* ------ Small: ------ */
+
+@media only screen and (min-width: 576px) and (max-width: 767.99px) {
   .title-img {
     width: 100%;
     height: auto;
@@ -460,7 +483,7 @@ p.footer-cv {
 
   p.copyright {
     font-size: .8em;
-    padding-top: 10px;
+    padding-top: 50px;
   }
 
   .navbar a {
@@ -494,9 +517,14 @@ p.footer-cv {
   .h5-sub {
     font-size: .85em;
   }
+
+  .copyright {
+    padding-top: 25px;
+  }
 }
 
-/* --- Medium: --- */
+/* ------ Medium: ------ */
+
 @media only screen and (min-width: 768px) and (max-width: 991.99px) {
   .title-img {
     width: 100%;
@@ -511,6 +539,11 @@ p.footer-cv {
     padding: 0;
   }
 
+  p.copyright {
+    font-size: .8em;
+    padding-top: 60px;
+  }
+
   .top-nav-item {
     padding-top: 30px;
   }
@@ -522,7 +555,7 @@ p.footer-cv {
   }
 }
 
-/* --- Large: --- */
+/* ------ Large: ------ */
 @media only screen and (min-width: 992px) and (max-width: 1920px) {
   .title-img {
     width: 100%;
