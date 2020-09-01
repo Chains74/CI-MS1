@@ -93,7 +93,6 @@ ul {
 }
 
 .navbar a:hover {
-  background-color: #DDDDDD;
   color: black;
 }
 
@@ -103,7 +102,6 @@ ul {
 
 .navbar a.navbar-brand {
   font-size: 30px;
-  padding-bottom: 15px;
 }
 
 /* ----- Classes ----- */
@@ -128,6 +126,10 @@ p.copyright {
 
 .h2-spacing {
   padding-top: 25px;
+}
+
+.title-sub {
+  padding-top: 40px;
 }
 
 .intro {
