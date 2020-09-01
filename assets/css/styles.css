@@ -94,6 +94,14 @@ ul {
   color: black;
 }
 
+.navbar-brand {
+  font-family: "Montez", cursive;
+}
+
+.navbar a.navbar-brand {
+  font-size: 30px;
+}
+
 /* ----- Classes ----- */
 
 div .col-sm {
