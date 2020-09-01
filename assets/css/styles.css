@@ -41,10 +41,9 @@ p {
 }
 
 hr {
-  border-style: none;
-  border-top: dotted;
+  border-style: dashed;
   border-color: #000000;
-  border-width: 10px;
+  border-width: 5px;
   width: 10%;
   margin: 50px auto;
 }
@@ -100,6 +99,7 @@ ul {
 
 .navbar a.navbar-brand {
   font-size: 30px;
+  padding-bottom: 15px;
 }
 
 /* ----- Classes ----- */
