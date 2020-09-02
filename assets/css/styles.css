@@ -243,13 +243,13 @@ p.footer-cv {
 
 /* ----- Timeline styling ----- */
 
-.container {
+.time-container {
   min-height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 100px 0;
+  padding: 100px 15px;
   background-color: #f2f2f2;
 }
 
