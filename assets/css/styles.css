@@ -210,6 +210,10 @@ p.footer-cv {
 
 /* ----- Skills page Styling ----- */
 
+.support-skills {
+  padding-bottom: 25px;
+}
+
 .skill-col {
   height: 75px;
   display: flex;
