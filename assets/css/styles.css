@@ -223,7 +223,7 @@ p.footer-cv {
 }
 
 .fe-skills-h5 {
-  position: absolute;
+  position: relative;
   left: 50%;
 }
 
@@ -463,11 +463,28 @@ p.footer-cv {
     height: 64px;
   }
 
-  .be-skills-h5 {
+  .fe-skills-h5 {
     position: absolute;
-    left: 50%;
+    left: 40%;
     padding-left: 20px;
   }
+
+  .fe-skills-img {
+    position: absolute;
+    left: 30%;
+  }
+
+  .be-skills-h5 {
+    position: absolute;
+    left: 40%;
+    padding-left: 20px;
+  }
+
+  .be-skills-img {
+    position: absolute;
+    left: 30%;
+  }
+
 
   .h3-sub {
     font-size: 0.85em;
@@ -536,12 +553,27 @@ p.footer-cv {
     padding-top: 30px;
   }
 
-  .be-skills-h5 {
+  .fe-skills-h5 {
     position: absolute;
-    left: 50%;
+    left: 40%;
     padding-left: 20px;
   }
 
+  .fe-skills-img {
+    position: absolute;
+    left: 30%;
+  }
+
+  .be-skills-h5 {
+    position: absolute;
+    left: 40%;
+    padding-left: 20px;
+  }
+
+  .be-skills-img {
+    position: absolute;
+    left: 30%;
+  }
   .h5-sub {
     font-size: .85em;
   }
@@ -575,10 +607,26 @@ p.footer-cv {
     padding-top: 30px;
   }
 
+  .fe-skills-h5 {
+    position: absolute;
+    left: 40%;
+    padding-left: 20px;
+  }
+
+  .fe-skills-img {
+    position: absolute;
+    left: 30%;
+  }
+
   .be-skills-h5 {
     position: absolute;
-    left: 50%;
+    left: 40%;
     padding-left: 20px;
+  }
+
+  .be-skills-img {
+    position: absolute;
+    left: 30%;
   }
 }
 
