@@ -33,37 +33,37 @@ The site consists of 4 pages. The homepage which contains a brief bio and a shor
 
 ## Technologies
 
-- HTML5:
+- HTML5:  
 HTML was used to define the basic structure of the site. Utilising standard HTML elements such as Divs, Unordered and Ordered lists and Paragraphs.
 
-- CSS3:
+- CSS3:  
 Cascading Style Sheets were used to style the pages of the sites by using user created and exisint Bootstrap classes.
 
-- [Bootstrap 4](https://getbootstrap.com)
+- [Bootstrap 4](https://getbootstrap.com):  
 Bootstrap 4 was used to help structure the rown and columns for the Bootstrap grid on the Skills page. It was also utilised for the Contact form on the contacts page, to allow the form fields to stack on top of each other at smaller screen sizes.
 
-- [Google Fonts](https://fonts.google.com/)
+- [Google Fonts](https://fonts.google.com/):  
 Was used for the 3 fonts used in the website for the body and headings. 
 
-- [Font Awesome](https://fontawesome.com/)
+- [Font Awesome](https://fontawesome.com/):  
 FA was used to add icons on the Skills page for the Support and Development section headings. It was also utilised for the Github and LinkedIn social links in the footer.
 
-- [Atom](https://atom.io/)
+- [Atom](https://atom.io/):  
 I used Atom as my editing environment as I like the ability to customise it to aid my worklfow through adding Atom packages to the editor.
 
-- [Adobe CC 2020](https://www.adobe.com/)
+- [Adobe CC 2020](https://www.adobe.com/):  
 I used Adobe Photoshop and Illustrator to manipulate the icons and images used on the website.
 
-- [Github](https://github.com/)
+- [Github](https://github.com/):  
 I utilised Git and Github to control and commit  changes made to the site using the Github package in Atom and the Github desktop application.
 
-- [Github Desktop](https://github.com/desktop/desktop)
+- [Github Desktop](https://github.com/desktop/desktop):  
 I used Github Desktop to push and fetch files to and from the Projects Online repository.
 
-- [W3C Markup Validation Service](https://validator.w3.org/)
+- [W3C Markup Validation Service](https://validator.w3.org/):  
 I used the W3 online Markup validation tool to check my HTML code and then fixed any issues that arised.
 
-- [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/#validate_by_uri)
+- [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/#validate_by_uri):  
 I used the W3 CSS validator to validate my CSS.
 
 
@@ -117,3 +117,5 @@ As I used a local IDE to create the site, all the files already exist locally on
 - I received help from Anthony O'Brien on the CI #user-centric-frontend Slack channel, when I had an issue with my collapsed Navbar not expanding. Anthoony found I had set the position for the navbar where it wasn't needed.
 
 - I used https://onaircode.com/html-css-horizontal-timeline-examples/ to get inspiration and a better understanding of how to code a timeline correctly by looking at the code examples to see how they were put together. 
+
+- I used Stackoverflow to find the answer to how to set the iorder of the links in the footer when stacked on smaller screen sizes.
