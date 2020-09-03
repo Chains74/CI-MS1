@@ -7,7 +7,7 @@ This website is a resume giving a brief overview of my skills and experience bui
 Screenshot of final website on different screens: ![Screen Sizes](https://github.com/Chains74/CI-MS1/blob/master/Documentation/MS1%20Screens.png)
 
 ## UX
-The website is for potential employers to be able to quickly see what my main skills are. They will also be able to see a brief work history with pertinent details from those roles.
+The website is for potential employers to be able to quickly see what my main skills are. They will also be able to see a brief work history with pertinent details from those roles. I wanted to keep the site sleek and easy to navigate using the navigation bar at the top of eaach page. I have made sure that the header and footer are the same, along with the minimal colour palette and splitting of sections between the off-white and gradient colours. This is repeated across the site so the user experience doesn't change between pages. 
 
 Basic Wireframes:
 
