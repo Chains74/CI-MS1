@@ -11,22 +11,22 @@ The website is for potential employers to be able to quickly see what my main sk
 
 Basic Wireframes:
 
-- Desktop: [a relative link](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Wireframes/Desktop%20Wireframe.pdf)
-- Tablet: [a relative link](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Wireframes/Tablet%20Wireframe.pdf)
-- Mobile: [a relative link](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Wireframes/Mobile%20Wireframe.pdf)
+- [a Desktop Wireframe](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Wireframes/Desktop%20Wireframe.pdf)
+- [a Tablet Wireframe](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Wireframes/Tablet%20Wireframe.pdf)
+- [a Mobile Wireframe](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Wireframes/Mobile%20Wireframe.pdf)
 
 Website MockUps:
 
-- Desktop: [a relative link](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Mockups/Desktop%20Mockup.pdf)
-- Tablet: [a relative link](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Mockups/Tablet%20Mockup.pdf)
-- Mobile: [a relative link](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Mockups/Mobile%20Mockup.pdf)
+- [a Desktop Mockup](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Mockups/Desktop%20Mockup.pdf)
+- [a Tablet Mockup](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Mockups/Tablet%20Mockup.pdf)
+- [a Mobile Mockup](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Mockups/Mobile%20Mockup.pdf)
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The site consists of 4 pages. The homepage which contains a brief bio and a short list of skills and interests. A Skills page which shows my support and development skills in a little more detaill, a history page which shows a timeline of the last 5 positions I've held and a contact page with location detail and a dummy phone number and contact form.
  
 ### Existing Features
-- Feature 1 - Contact form allows people to send me message directly.
+- Feature 1 - Contact form allows people to send me message directly Does not contain a mailto action, so will refresh when the submit button is pressed..
 - Feature 2 - Link to CV to allow potential employers to download a PDF copy of my CV.
 - Feature 3 - Link to my LinkedIn and Github pages.
 
@@ -39,31 +39,31 @@ HTML5:
 CSS3:
 - Cascading Style Sheets were used to style the pages of the sites by using user created and exisint Bootstrap classes.
 
-Bootstrap 4: (https://getbootstrap.com)
+[a Bootstrap 4](https://getbootstrap.com)
 - Bootstrap 4 was used to help structure the rown and columns for the Bootstrap grid on the Skills page. It was also utilised for the Contact form on the contacts page, to allow the form fields to stack on top of each other at smaller screen sizes.
 
-Google Fonts: (https://fonts.google.com/)
+[a Google Fonts](https://fonts.google.com/)
 - Was used for the 3 fonts used in the website for the body and headings. 
 
-Font Awesome: (https://fontawesome.com/)
+[a Font Awesome](https://fontawesome.com/)
 - FA was used to add icons on the Skills page for the Support and Development section headings. It was also utilised for the Github and LinkedIn social links in the footer.
 
-Atom: (https://atom.io/)
+[a Atom](https://atom.io/)
 - I used Atom as my editing environment as I like the ability to customise it to aid my worklfow through adding Atom packages to the editor.
 
-Adobe CC 2020: (https://www.adobe.com/)
+[a Adobe CC 2020](https://www.adobe.com/)
 - I used Adobe Photoshop and Illustrator to manipulate the icons and images used on the website.
 
-Git / Github: (https://git-scm.com / https://github.com/)
+[a Github](https://github.com/)
 - I utilised Git and Github to control and commit  changes made to the site using the Github package in Atom and the Github desktop application.
 
-Github Desktop: (https://github.com/desktop/desktop)
+[a Github Desktop](https://github.com/desktop/desktop)
 - I used Github Desktop to push and fetch files to and from the Projects Online repository.
 
-W3C Markup Validation Service: (https://validator.w3.org/)
+[a W3C Markup Validation Service](https://validator.w3.org/)
 - I used the W3 online Markup validation tool to check my HTML code and then fixed any issues that arised.
 
-W3C CSS Validation Service: (http://jigsaw.w3.org/css-validator/#validate_by_uri)
+[a W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/#validate_by_uri)
 - I used the W3 CSS validator to validate my CSS.
 
 
@@ -79,8 +79,7 @@ The user will find the site to be easy to navigate with simple links in the navi
 
 ## Deployment
 
-I uploaded the project files  to Github and deployed the site usingGithub pages. 
-
+I uploaded the project files to Github and deployed the site usingGithub pages. 
 
 To upload the project to Github I used the process below:
 
