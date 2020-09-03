@@ -4,22 +4,22 @@ Code Institute Milestone 1 Project
 
 This website is a resume giving a brief overview of my skills and experience built up over my working life. The site has been created to highlight my skills and experience without going into too much detail. A link to my CV has been provided for those that are looking for a deeper dive.
 
-Screenshot of final website on different screens: ![Screen Sizes](Documentation/MS1 Screens.png)
+Screenshot of final website on different screens: ![Screen Sizes](https://github.com/Chains74/CI-MS1/blob/master/Documentation/MS1%20Screens.png)
 
 ## UX
 The website is for potential employers to be able to quickly see what my main skills are and they will also be able to see a brief work history with pertinent details from those roles.
 
 Basic Wireframes:
 
-Desktop: [a relative link](Documentation/Wireframes/Desktop Wireframe.pdf )
-Tablet: [a relative link](Documentation/Wireframes/Tablet Wireframe.pdf )
-Mobile: [a relative link](Documentation/Wireframes/Mobile Wireframe.pdf )
+- Desktop: [a relative link](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Wireframes/Desktop%20Wireframe.pdf)
+- Tablet: [a relative link](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Wireframes/Tablet%20Wireframe.pdf)
+- Mobile: [a relative link](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Wireframes/Mobile%20Wireframe.pdf)
 
 Website MockUps:
 
-Desktop: [a relative link](Documentation/Mockups/Desktop Mockup.pdf )
-Tablet: [a relative link](Documentation/Mockups/Tablet Mockup.pdf )
-Mobile: [a relative link](Documentation/Mockups/Mobile Mockup.pdf )
+- Desktop: [a relative link](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Mockups/Desktop%20Mockup.pdf)
+- Tablet: [a relative link](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Mockups/Tablet%20Mockup.pdf)
+- Mobile: [a relative link](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Mockups/Mobile%20Mockup.pdf)
 
 ## Features
 
