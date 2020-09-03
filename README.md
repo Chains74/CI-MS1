@@ -7,7 +7,7 @@ This website is a resume giving a brief overview of my skills and experience bui
 Screenshot of final website on different screens: ![Screen Sizes](https://github.com/Chains74/CI-MS1/blob/master/Documentation/MS1%20Screens.png)
 
 ## UX
-The website is for potential employers to be able to quickly see what my main skills are and they will also be able to see a brief work history with pertinent details from those roles.
+The website is for potential employers to be able to quickly see what my main skills are. They will also be able to see a brief work history with pertinent details from those roles.
 
 Basic Wireframes:
 
@@ -23,7 +23,7 @@ Website MockUps:
 
 ## Features
 
-The site consists of 4 pages. The homepage which contains a brief bio and a short list of skills and interests. A Skills page which shows my support and development skills in a little more detaill, a history page which shows a timeline of the last 5 positions I've held and a contact page with location detail and a dummy phone number and contact form.
+The site consists of 4 pages. The homepage which contains a brief bio and a short list of skills and interests. A Skills page which shows my support and development skills in a little more detail, a history page which shows a timeline of the last 5 positions I've held and a contact page with location details and a dummy phone number and contact form.
  
 ### Existing Features
 - Feature 1 - Contact form allows people to send me message directly Does not contain a mailto action, so will refresh when the submit button is pressed..
@@ -37,10 +37,10 @@ The site consists of 4 pages. The homepage which contains a brief bio and a shor
 HTML was used to define the basic structure of the site. Utilising standard HTML elements such as Divs, Unordered and Ordered lists and Paragraphs.
 
 - CSS3:  
-Cascading Style Sheets were used to style the pages of the sites by using user created and exisint Bootstrap classes.
+Cascading Style Sheets were used to style the pages of the sites by using user created and existing HTML and Bootstrap classes.
 
 - [Bootstrap 4](https://getbootstrap.com):  
-Bootstrap 4 was used to help structure the rown and columns for the Bootstrap grid on the Skills page. It was also utilised for the Contact form on the contacts page, to allow the form fields to stack on top of each other at smaller screen sizes.
+Bootstrap 4 was used to help structure the rows and columns for the Bootstrap grid on the Skills page. It was also utilised for the Contact form on the contacts page, to allow the form fields to stack on top of each other at smaller screen sizes.
 
 - [Google Fonts](https://fonts.google.com/):  
 Was used for the 3 fonts used in the website for the body and headings. 
@@ -49,16 +49,16 @@ Was used for the 3 fonts used in the website for the body and headings.
 FA was used to add icons on the Skills page for the Support and Development section headings. It was also utilised for the Github and LinkedIn social links in the footer.
 
 - [Atom](https://atom.io/):  
-I used Atom as my editing environment as I like the ability to customise it to aid my worklfow through adding Atom packages to the editor.
+I used Atom as my editing environment as I like the ability to customise it to aid my workflow through installing packages in the editor.
 
 - [Adobe CC 2020](https://www.adobe.com/):  
 I used Adobe Photoshop and Illustrator to manipulate the icons and images used on the website.
 
 - [Github](https://github.com/):  
-I utilised Git and Github to control and commit  changes made to the site using the Github package in Atom and the Github desktop application.
+I utilised Git and Github to control and commit changes made to the site using the Github package in Atom and the Github desktop application.
 
 - [Github Desktop](https://github.com/desktop/desktop):  
-I used Github Desktop to push and fetch files to and from the Projects Online repository.
+I used Github Desktop to push and fetch files to and from the Projects online repository.
 
 - [W3C Markup Validation Service](https://validator.w3.org/):  
 I used the W3 online Markup validation tool to check my HTML code and then fixed any issues that arised.
@@ -69,8 +69,8 @@ I used the W3 CSS validator to validate my CSS.
 
 ## Testing
 
-Although I have not automated testing on this site, I have tested the site on a multitude of different devices and sizes. This includes a 5K 27" iMac, 13' MacBook Pro, the MBP connected up to a 1080P External Monitor, an 11.9" iPad, an iPad Mini and iPhone 4, 5S, 6 and 7, along with a Samsung Galaxy J3.
-The site has also been tested on the folowing browsers: Safari, Firefox, Google Chrome, Vivaldi, Opera and Brave.  The developer tools on all browsers were used to check responsive and test the site on the various device sizes the inspector offers.
+Although I have not automated testing on this site, I have tested the site on a multitude of different devices and sizes. This includes a 27" iMac, 13' MacBook Pro, the MBP connected up to a 1080P External Monitor, an 11.9" iPad, an iPad Mini and iPhone 4, 5S, 6 and 7, along with a Samsung Galaxy J3.
+The site has also been tested on the folowing browsers: Safari, Firefox, Google Chrome, Vivaldi, Opera and Brave.  The developer tools on all browsers were used to check responsive and test the site on the various device sizes the respective developer tool offers.
 I have asked a few friends and family to test the site site and make sure they can navigate it easily and to report back with any issues.
 The links have been tested and all open in new tabs within the same browser as the site. On the Contacts page all fields will need to be filled in to submit. The email field will need a valid email address to clear the validation.. 
 Had an issue where the timeline elements were stretched to wide on high resolution screens. This was fixed by using a media query to change the width of the timeline content on the higher resolution screens.
@@ -99,7 +99,7 @@ To deploy the project using Github Pages  I used the process below:
     
     https://chains74.github.io/CI-MS1/
 
-As I used a local IDE to create the site, all the files already exist locally on my machine. To run the code locally, it is just a case of accessing the  folder containg the files and opening any of the html files from the project in the browser of my choice.
+As I used a local IDE to create the site, all the files already exist locally on my machine. To run the code locally, it is just a case of accessing the folder containg the files and opening any of the html files from the project in the browser of my choice.
 
 
 ## Credits
@@ -114,7 +114,7 @@ As I used a local IDE to create the site, all the files already exist locally on
 
 - I received inspiration for this project from the CV project in the User Centric Front End Development module.
 
-- I received help from Anthony O'Brien on the CI #user-centric-frontend Slack channel, when I had an issue with my collapsed Navbar not expanding. Anthoony found I had set the position for the navbar where it wasn't needed.
+- I received help from Anthony O'Brien on the CI #user-centric-frontend Slack channel, when I had an issue with my collapsed Navbar not expanding. Anthony found I had set a position value for the navbar in my stylesheet when it wasn't needed. Big thanks for the help in fixing that.
 
 - I used https://onaircode.com/html-css-horizontal-timeline-examples/ to get inspiration and a better understanding of how to code a timeline correctly by looking at the code examples to see how they were put together. 
 
