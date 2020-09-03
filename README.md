@@ -11,15 +11,15 @@ The website is for potential employers to be able to quickly see what my main sk
 
 Basic Wireframes:
 
-- [a Desktop Wireframe](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Wireframes/Desktop%20Wireframe.pdf)
-- [a Tablet Wireframe](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Wireframes/Tablet%20Wireframe.pdf)
-- [a Mobile Wireframe](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Wireframes/Mobile%20Wireframe.pdf)
+- [Desktop Wireframe](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Wireframes/Desktop%20Wireframe.pdf)
+- [Tablet Wireframe](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Wireframes/Tablet%20Wireframe.pdf)
+- [Mobile Wireframe](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Wireframes/Mobile%20Wireframe.pdf)
 
 Website MockUps:
 
-- [a Desktop Mockup](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Mockups/Desktop%20Mockup.pdf)
-- [a Tablet Mockup](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Mockups/Tablet%20Mockup.pdf)
-- [a Mobile Mockup](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Mockups/Mobile%20Mockup.pdf)
+- [Desktop Mockup](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Mockups/Desktop%20Mockup.pdf)
+- [Tablet Mockup](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Mockups/Tablet%20Mockup.pdf)
+- [Mobile Mockup](https://github.com/Chains74/CI-MS1/blob/master/Documentation/Mockups/Mobile%20Mockup.pdf)
 
 ## Features
 
@@ -33,38 +33,38 @@ The site consists of 4 pages. The homepage which contains a brief bio and a shor
 
 ## Technologies
 
-HTML5:
-- HTML was used to define the basic structure of the site. Utilising standard HTML elements such as Divs, Unordered and Ordered lists and Paragraphs.
+- HTML5:
+HTML was used to define the basic structure of the site. Utilising standard HTML elements such as Divs, Unordered and Ordered lists and Paragraphs.
 
-CSS3:
-- Cascading Style Sheets were used to style the pages of the sites by using user created and exisint Bootstrap classes.
+- CSS3:
+Cascading Style Sheets were used to style the pages of the sites by using user created and exisint Bootstrap classes.
 
-[Bootstrap 4](https://getbootstrap.com)
-- Bootstrap 4 was used to help structure the rown and columns for the Bootstrap grid on the Skills page. It was also utilised for the Contact form on the contacts page, to allow the form fields to stack on top of each other at smaller screen sizes.
+- [Bootstrap 4](https://getbootstrap.com)
+Bootstrap 4 was used to help structure the rown and columns for the Bootstrap grid on the Skills page. It was also utilised for the Contact form on the contacts page, to allow the form fields to stack on top of each other at smaller screen sizes.
 
-[a Google Fonts](https://fonts.google.com/)
-- Was used for the 3 fonts used in the website for the body and headings. 
+- [Google Fonts](https://fonts.google.com/)
+Was used for the 3 fonts used in the website for the body and headings. 
 
-[a Font Awesome](https://fontawesome.com/)
-- FA was used to add icons on the Skills page for the Support and Development section headings. It was also utilised for the Github and LinkedIn social links in the footer.
+- [Font Awesome](https://fontawesome.com/)
+FA was used to add icons on the Skills page for the Support and Development section headings. It was also utilised for the Github and LinkedIn social links in the footer.
 
-[a Atom](https://atom.io/)
-- I used Atom as my editing environment as I like the ability to customise it to aid my worklfow through adding Atom packages to the editor.
+- [Atom](https://atom.io/)
+I used Atom as my editing environment as I like the ability to customise it to aid my worklfow through adding Atom packages to the editor.
 
-[a Adobe CC 2020](https://www.adobe.com/)
-- I used Adobe Photoshop and Illustrator to manipulate the icons and images used on the website.
+- [Adobe CC 2020](https://www.adobe.com/)
+I used Adobe Photoshop and Illustrator to manipulate the icons and images used on the website.
 
-[a Github](https://github.com/)
-- I utilised Git and Github to control and commit  changes made to the site using the Github package in Atom and the Github desktop application.
+- [Github](https://github.com/)
+I utilised Git and Github to control and commit  changes made to the site using the Github package in Atom and the Github desktop application.
 
-[a Github Desktop](https://github.com/desktop/desktop)
-- I used Github Desktop to push and fetch files to and from the Projects Online repository.
+- [Github Desktop](https://github.com/desktop/desktop)
+I used Github Desktop to push and fetch files to and from the Projects Online repository.
 
-[a W3C Markup Validation Service](https://validator.w3.org/)
-- I used the W3 online Markup validation tool to check my HTML code and then fixed any issues that arised.
+- [W3C Markup Validation Service](https://validator.w3.org/)
+I used the W3 online Markup validation tool to check my HTML code and then fixed any issues that arised.
 
-[a W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/#validate_by_uri)
-- I used the W3 CSS validator to validate my CSS.
+- [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/#validate_by_uri)
+I used the W3 CSS validator to validate my CSS.
 
 
 ## Testing
