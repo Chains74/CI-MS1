@@ -39,7 +39,7 @@ HTML5:
 CSS3:
 - Cascading Style Sheets were used to style the pages of the sites by using user created and exisint Bootstrap classes.
 
-[a Bootstrap 4](https://getbootstrap.com)
+[Bootstrap 4](https://getbootstrap.com)
 - Bootstrap 4 was used to help structure the rown and columns for the Bootstrap grid on the Skills page. It was also utilised for the Contact form on the contacts page, to allow the form fields to stack on top of each other at smaller screen sizes.
 
 [a Google Fonts](https://fonts.google.com/)
