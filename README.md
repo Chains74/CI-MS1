@@ -51,17 +51,16 @@ Website Mockups:
 
 - The site was designed with a simple colour palette to keep the site sleek and avoid any clashes with the skills and software imagery.
 
-The main body uses:
+The main body uses the following HEX code colour:
 
  #F2F2F2
 
-The gradient is made up of the following colours:
+The gradient is made up of the following HEX code colours:
 
  #9A9A9A
  #DBDBDB
  #E4E4E4
  #F2F2F2
-
 
 ## Technologies
 
@@ -86,7 +85,7 @@ I used Atom as my editing environment as I like the ability to customise it to a
 - [Adobe CC 2020](https://www.adobe.com/):  
 I used Adobe Photoshop and Illustrator to manipulate the icons and images used on the website, and XD to create the wireframes and mockups.
 
-- [Git](https://git-scm.com/):
+- [Git](https://git-scm.com/):  
 Git was used for version control and tracking of changes made to the code.
 
 - [Github](https://github.com/):  
@@ -103,20 +102,20 @@ Used to validate my CSS code and alert me to any errors.
 
 ## Testing
 
-- Navigation Bar / Footer:
+### Navigation Bar / Footer:
 
-* Navigation bar is fixed to the top of the screen on all screen sizes, and all links to other pages on the site. This has been tested on desktop, laptop, tablet and mobile devices.
-* The footer is located at the bottom of the screen but is not fixed, so will only show once the user has scrolled to the bottom of the page. This was done to make sure that the user could maximise the available screen estate when reading through the page.
-* The social links open on new tabs with the currently used browser. Again this was tested across all devices.
-* With the CV download link, this will open the PDF in a new tab on anything less than laptop screen, and on laptops and above it will give you the option to open or save the PDF locally.
+- Navigation bar is fixed to the top of the screen on all screen sizes, and all links to other pages on the site. This has been tested on desktop, laptop, tablet and mobile devices.
+- The footer is located at the bottom of the screen but is not fixed, so will only show once the user has scrolled to the bottom of the page. This was done to make sure that the user could maximise the available screen estate when reading through the page.
+- The social links open on new tabs with the currently used browser. Again this was tested across all devices.
+- With the CV download link, this will open the PDF in a new tab on anything less than laptop screen, and on laptops and above it will give you the option to open or save the PDF locally.
 
-- Homepage:
+### Homepage:
 * On the homepage the skills are set to float either to the left or right of the skill image. I have also set a style that changes the font-size and colour of the skill on smaller screens to make it stand out a little.
 
-- History Page:
+### History Page:
 * The goal of the testing on the history page was to make sure that the brief details of each job would not display on smaller sizes, so they just show the job title and company. On tablets in landscape the job details will reappear.
 
-- Contact:
+### Contact:
 * On the contacts page I have tested to make sure that all fields need to be filled in before you can submit the form. This was done by adding the required option on the input elements in the code.
 
 ## Code Validation
@@ -128,14 +127,14 @@ Used to validate my CSS code and alert me to any errors.
             src="http://jigsaw.w3.org/css-validator/images/vcss"
             alt="Valid CSS!" />
     </a>
-</p>
+</p> PASSED
 
 - HTML validation:
 
-* [Homepage](https://validator.w3.org/nu/#textarea)
-* [Skills](https://validator.w3.org/nu/#textarea)
-* [History](https://validator.w3.org/nu/#textarea)
-* [Contact](https://validator.w3.org/nu/#textarea)
+Homepage (https://validator.w3.org/nu/#textarea)
+Skills (https://validator.w3.org/nu/#textarea)
+History (https://validator.w3.org/nu/#textarea)
+Contact (https://validator.w3.org/nu/#textarea)
 
 Although I have not automated testing on this site, I have tested the site on a multitude of different devices and sizes. This includes a 27" iMac, 13' MacBook Pro, the MBP connected up to a 1080P External Monitor, an 11.9" iPad, an iPad Mini and iPhone 4, 5S, 6 and 7, along with a Samsung Galaxy J3.
 The site has also been tested on the following browsers: Safari, Firefox, Google Chrome, Vivaldi, Opera and Brave.  The developer tools on all browsers were used to check responsive and test the site on the various device sizes the respective developer tool offers.
@@ -162,15 +161,15 @@ To upload the project to Github I used the process below:
 
 1. Downloaded and installed the Github Desktop application. Logged into my Github account.
 2. Installed the Github package into Atom, and connected to my Github account.
-3. Staged the changes to the sites pages using the Atom Github pakage and added the Commit message.
-4. Pushed the changes to the online repositry using Github Desktop.
+3. Staged the changes to the sites pages using the Atom Github package and added the Commit message.
+4. Pushed the changes to the online repository using Github Desktop.
 
 To deploy the project using Github Pages  I used the process below:
 
 1. Logged into my GitHub account
 2. Clicked on the link to the project repository.
 3. Clicked on the Settings link in the project repository.
-4. Scrolled down until I found the GithubPages section.
+4. Scrolled down until I found the Github Pages section.
 5. Selected Master from the Branch dropdown menu under Source and clicked Save.
 6. After a few minutes the link for the published page appeared, which is:
 
@@ -191,7 +190,7 @@ As I used a local IDE to create the site, all the files already exist locally on
 
 - I received inspiration for this project from the CV project in the User Centric Front End Development module.
 
-- I received help from Anthony O'Brien on the CI #user-centric-frontend Slack channel, when I had an issue with my collapsed Navbar not expanding. Anthony found I had set a position value for the navbar in my stylesheet when it wasn't needed. Big thanks for the help in fixing that.
+- I received help from Anthony O'Brien on the CI #user-centric-frontend Slack channel, when I had an issue with my collapsed Navbar not expanding. Big thanks for the help in fixing that.
 
 - I used https://onaircode.com/html-css-horizontal-timeline-examples/ to get inspiration and a better understanding of how to code a timeline correctly by looking at the code examples to see how they were put together.
 
