@@ -162,13 +162,13 @@ The site was tested on the below browsers, using the dev tools of each browser t
 The site URL was shared with friends and family and they were asked to test usability and to report back with any issues they may have experienced. No problems were reported back.
 
 ## Issues fixed
-Issue:- Collapsed Nav-bar would not expand.
+Issue:- Collapsed Nav-bar would not expand.  
 Fix:- Problem caused by setting position property on the nav-bar class. Solution provided by Anthony O'Brien on Slack.
 
-Issue:- Timeline content divs stretched wider than the content on desktop screen sizes.
+Issue:- Timeline content divs stretched wider than the content on desktop screen sizes.  
 Fix:- used media query to set the content div's width on larger screens.
 
-Issue:- Development skills list off centre when displayed on mobile screens.
+Issue:- Development skills list off centre when displayed on mobile screens.  
 Fix:- Used CSS and media queries to position items centrally on smaller screens.
 
 ---
