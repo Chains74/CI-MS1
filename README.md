@@ -6,8 +6,11 @@ This website is a resume giving a brief overview of my skills and experience bui
 
 Screenshot of final website on different screens: ![Screen Sizes](https://github.com/Chains74/CI-MS1/blob/master/Documentation/MS1%20Screens.png)
 
-## UX
-The website is for potential employers to be able to quickly see what my main skills are. They will also be able to see a brief work history with pertinent details from those roles. I wanted to keep the site sleek and easy to navigate using the navigation bar at the top of eaach page. I have made sure that the header and footer are the same, along with the minimal colour palette and splitting of sections between the off-white and gradient colours. This is repeated across the site so the user experience doesn't change between pages.
+---
+
+## User Experience (UX)
+
+The website is for potential employers to be able to quickly see what my main skills are. They will also be able to see a brief work history with pertinent details from those roles. I wanted to keep the site sleek and easy to navigate using the navigation bar at the top of each page. I have made sure that the header and footer are the same, along with the minimal colour palette and splitting of sections between the off-white and gradient colours. This is repeated across the site so the user experience doesn't change between pages.
 
 ## Features
 
@@ -23,6 +26,8 @@ The site consists of 4 pages. The homepage which contains a brief bio and a shor
 - Keep site updated with future work experience.
 - Put site up on a custom domain.
 - Add mailto action to contact form, so potential employers can contact me directly.
+
+---
 
 ## Wireframes & Mockups
 
@@ -53,14 +58,16 @@ Website Mockups:
 
 The main body uses the following HEX code colour:
 
- #F2F2F2
+ - #F2F2F2
 
 The gradient is made up of the following HEX code colours:
 
- #9A9A9A
- #DBDBDB
- #E4E4E4
- #F2F2F2
+- #9A9A9A
+- #DBDBDB
+- #E4E4E4
+- #F2F2F2
+
+---
 
 ## Technologies
 
@@ -100,6 +107,8 @@ Used to validate my HTML code and alert me to any errors.
 - [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/#validate_by_uri):  
 Used to validate my CSS code and alert me to any errors.
 
+---
+
 ## Testing
 
 ### Navigation Bar / Footer:
@@ -120,7 +129,7 @@ Used to validate my CSS code and alert me to any errors.
 
 ## Code Validation
 
-- CSS Validation:
+### CSS Validation:
 <p>
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
@@ -129,19 +138,28 @@ Used to validate my CSS code and alert me to any errors.
     </a>
 </p> PASSED
 
-- HTML validation:
+### HTML validation:
 
-Homepage (https://validator.w3.org/nu/#textarea)
-Skills (https://validator.w3.org/nu/#textarea)
-History (https://validator.w3.org/nu/#textarea)
-Contact (https://validator.w3.org/nu/#textarea)
+- Homepage: [PASSED](https://validator.w3.org/nu/#textarea)
+- Skills: [PASSED](https://validator.w3.org/nu/#textarea)
+- History: [PASSED](https://validator.w3.org/nu/#textarea)
+- Contact: [PASSED](https://validator.w3.org/nu/#textarea)
 
-Although I have not automated testing on this site, I have tested the site on a multitude of different devices and sizes. This includes a 27" iMac, 13' MacBook Pro, the MBP connected up to a 1080P External Monitor, an 11.9" iPad, an iPad Mini and iPhone 4, 5S, 6 and 7, along with a Samsung Galaxy J3.
-The site has also been tested on the following browsers: Safari, Firefox, Google Chrome, Vivaldi, Opera and Brave.  The developer tools on all browsers were used to check responsive and test the site on the various device sizes the respective developer tool offers.
-I have asked a few friends and family to test the site site and make sure they can navigate it easily and to report back with any issues.
-The links have been tested and all open in new tabs within the same browser as the site. On the Contacts page all fields will need to be filled in to submit. The email field will need a valid email address to clear the validation..
+### Browsers tested
 
-The user will find the site to be easy to navigate with simple links in the navigation bar at the top of the screen. This collapses down on smaller screens and is still easy to access when it expands when clicked on. There are no embedded videos or audio as with the website being a resume I wanted it to be clean, sleek and professional looking.
+The site was tested on the below browsers, using the dev tools of each browser to check the responsiveness. This was achieved using the various device sizes available within each browsers tools.
+
+- [Firefox](https://www.mozilla.org/en-GB/firefox/new/?redirect_source=firefox-com) - Passed
+- [Chrome](https://www.google.com/chrome) - Passed
+- [Brave](https://brave.com/) - Passed
+- [Vivaldi](https://vivaldi.com/) - Passed
+- [Opera](https://www.opera.com/) - Passed
+- [Safari](https://www.apple.com/safari/) - Passed
+- [Microsoft Edge](https://www.microsoft.com/en-us/edge) - Passed
+
+- Responsiveness was tested on an iMac, MacBook Pro, Dell laptop, iPhone, iPad and Samsung J3. Desktop/Mobile OS compatibility was tested on macOS 10.14/15, iOS 13, Android, and Windows 7.
+
+The site URL was shared with friends and family and they were asked to test usability and to report back with any issues they may have experienced. No problems were reported back.
 
 ## Issues fixed
 Issue:- Collapsed Nav-bar would not expand.
@@ -152,6 +170,8 @@ Fix:- used media query to set the content div's width on larger screens.
 
 Issue:- Development skills list off centre when displayed on mobile screens.
 Fix:- Used CSS and media queries to position items centrally on smaller screens.
+
+---
 
 ## Deployment
 
@@ -175,8 +195,9 @@ To deploy the project using Github Pages  I used the process below:
 
     https://chains74.github.io/CI-MS1/
 
-As I used a local IDE to create the site, all the files already exist locally on my machine. To run the code locally, it is just a case of accessing the folder containg the files and opening any of the html files from the project in the browser of my choice.
+As I used a local IDE to create the site, all the files already exist locally on my machine. To run the code locally, it is just a case of accessing the folder containing the files and opening any of the html files from the project in the browser of my choice.
 
+---
 
 ## Credits
 
