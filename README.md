@@ -118,4 +118,4 @@ As I used a local IDE to create the site, all the files already exist locally on
 
 - I used https://onaircode.com/html-css-horizontal-timeline-examples/ to get inspiration and a better understanding of how to code a timeline correctly by looking at the code examples to see how they were put together. 
 
-- I used Stackoverflow to find the answer to how to set the iorder of the links in the footer when stacked on smaller screen sizes.
+- I used Stackoverflow to find the answer to how to set the order of the links in the footer when stacked on smaller screen sizes.
