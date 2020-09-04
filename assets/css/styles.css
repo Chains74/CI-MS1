@@ -383,6 +383,13 @@ p.footer-cv {
   padding: 15px 0;
 }
 
+.contact-form {
+  background-color: #fafafa;
+  box-shadow: 0 0 2px rgba(0,0,0,0.4);
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
 /* -------- Media Queries for Responsivness -------- */
 
 /* ------ Extra Small: ------ */
@@ -409,6 +416,10 @@ p.footer-cv {
 
   div.col-sm {
     padding-top: 0;
+  }
+
+  div.col-sm.dev-sm {
+    padding-top: 40px;
   }
 
   .fed-img {
