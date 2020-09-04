@@ -669,6 +669,11 @@ p.footer-cv {
   .icon {
     font-size: 2em;
   }
+
+  .fa-download {
+    padding-bottom: 10px;
+  }
+
 }
 /* ----- Extra Large ----- */
 
