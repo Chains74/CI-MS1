@@ -136,32 +136,33 @@ Used to validate my CSS code and alert me to any errors.
             src="http://jigsaw.w3.org/css-validator/images/vcss"
             alt="Valid CSS!" />
     </a>
-</p> PASSED
+</p> - PASSED
 
 ### HTML validation:
 
-- Homepage: [PASSED](https://validator.w3.org/nu/#textarea)
-- Skills: [PASSED](https://validator.w3.org/nu/#textarea)
-- History: [PASSED](https://validator.w3.org/nu/#textarea)
-- Contact: [PASSED](https://validator.w3.org/nu/#textarea)
+- Homepage: PASSED
+- Skills: PASSED
+- History: PASSED
+- Contact: PASSED
 
 ### Browsers tested
 
 The site was tested on the below browsers, using the dev tools of each browser to check the responsiveness. This was achieved using the various device sizes available within each browsers tools.
 
-- [Firefox](https://www.mozilla.org/en-GB/firefox/new/?redirect_source=firefox-com) - Passed
-- [Chrome](https://www.google.com/chrome) - Passed
-- [Brave](https://brave.com/) - Passed
-- [Vivaldi](https://vivaldi.com/) - Passed
-- [Opera](https://www.opera.com/) - Passed
-- [Safari](https://www.apple.com/safari/) - Passed
-- [Microsoft Edge](https://www.microsoft.com/en-us/edge) - Passed
+- Firefox - Passed
+- Chrome - Passed
+- Brave - Passed
+- Vivaldi - Passed
+- Opera - Passed
+- Safari - Passed
+- Microsoft Edge - Passed
 
 - Responsiveness was tested on an iMac, MacBook Pro, Dell laptop, iPhone, iPad and Samsung J3. Desktop/Mobile OS compatibility was tested on macOS 10.14/15, iOS 13, Android, and Windows 7.
 
 The site URL was shared with friends and family and they were asked to test usability and to report back with any issues they may have experienced. No problems were reported back.
 
 ## Issues fixed
+
 Issue:- Collapsed Nav-bar would not expand.  
 Fix:- Problem caused by setting position property on the nav-bar class. Solution provided by Anthony O'Brien on Slack.
 
